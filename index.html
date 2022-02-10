@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My quiz game</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <h1><span>Isaac's Quiz Game</span></h1>
+     
+	<div class="quiz_wrapper">
+           <div class="question" id="questionBox">	</div>
+           <div class="options">
+           	  <ul id="ul">
+           	  	  <li id="op1" onclick="button(this)"></li>
+           	  	  <li id="op2" onclick="button(this)"></li>
+           	  	  <li id="op3" onclick="button(this)"></li>
+           	  	  <li id="op4" onclick="button(this)"></li>
+           	  </ul>
+           </div>
+           <div class="score">
+           	   <div class="next">
+           	   	  <button type="button" onclick="next()" id="button">Next</button>
+           	   </div>
+           	   <div class="score-card">
+           	   	  Score : <span id="scoreCard">0</span>
+           	   </div>
+           </div>
+
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>
